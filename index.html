@@ -340,7 +340,7 @@ worker = await Tesseract.createWorker("eng");
 await worker.setParameters({
 // ホワイトリスト（文字制限）を完全に削除して、どんな文字も読めるように変更
 preserve_interword_spaces: "0",
-tessedit_pageseg_mode: "6"
+tessedit_pageseg_mode: "3"
 });
 
 running = true;
